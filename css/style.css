@@ -1,0 +1,44 @@
+﻿@import url("reset.css");
+
+BODY {
+
+	font-family: 'Source Code Pro', monospace;
+	margin: 30px;
+	background: #121212;
+	color: #eeeeee;
+}
+
+
+H1{
+	font-family: 'Source Code Pro', monospace;
+	text-align:left;
+	font-size:2em;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:0px;
+	vertical-align:top;
+	color:#eeeeee;
+
+}
+
+P{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+ A{
+	color:#eeeeee;
+    text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #aaaaaa;
+}
+
+A:hover{ 
+	color:#eeeeee;
+    text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #333333;
+}
+
+
+
