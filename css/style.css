@@ -3,18 +3,24 @@
 
 
 
+@media screen and (max-width: 600px) {
+  BODY {
+    font-size:1.5vmax ;
+  }
+}
 
 BODY {
 	-webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 	font-family: 'Source Code Pro', monospace;
+	    font-size:1.1vmax ;
 	max-width: 56rem;
 	padding:  1.5rem;
 	margin-left:  1rem;
 	margin-right: auto;
 	background: #121212;
 	color: #eeeeee;
-	font-size:1.1vmax ; 
+	
 }
 
 
