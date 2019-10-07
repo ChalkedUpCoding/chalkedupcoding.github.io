@@ -32,7 +32,7 @@ H1{
 	margin-left: 0px;
 	margin-right: 0px;
 	vertical-align:top;
-	color: #ffaaaa;	
+	color: #aaffaa;	
 }
 
 P{
@@ -40,6 +40,9 @@ P{
 	margin-bottom:30px;
 }
 
+TD {
+	vertical-align: top;
+}
 
 
  A{
