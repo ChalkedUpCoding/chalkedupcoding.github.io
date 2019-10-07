@@ -1,9 +1,22 @@
 ﻿@import url("reset.css");
 
-BODY {
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+
+
+
+BODY {
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 	font-family: 'Source Code Pro', monospace;
-	margin: 30px;
+	  max-width: 38rem;
+  padding:  1.5rem;
+  margin-left:  1rem;
+  margin-right: auto;
 	background: #121212;
 	color: #eeeeee;
 }
@@ -25,6 +38,7 @@ P{
 	margin-top:30px;
 	margin-bottom:30px;
 }
+
 
  A{
 	color:#eeeeee;
