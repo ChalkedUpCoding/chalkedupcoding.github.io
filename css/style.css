@@ -41,6 +41,12 @@ P{
 	text-align: justify;
 }
 
+UL {
+	list-style-type: disc;
+	padding:  1.5rem;
+
+}
+
 TD {
 	vertical-align: top;
 }
