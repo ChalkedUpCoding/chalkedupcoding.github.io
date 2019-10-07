@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 600px) {
   BODY {
-    font-size:1.5vmax ;
+    font-size:1.7vmax ;
   }
 }
 
@@ -20,7 +20,7 @@ BODY {
 	margin-right: auto;
 	background: #121212;
 	color: #eeeeee;
-	
+
 }
 
 
@@ -32,6 +32,7 @@ H1{
 	margin-left: 0px;
 	margin-right: 0px;
 	vertical-align:top;
+	color: #ffaaaa;	
 }
 
 P{
