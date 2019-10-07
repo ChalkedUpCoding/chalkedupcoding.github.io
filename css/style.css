@@ -44,7 +44,10 @@ P{
 UL {
 	list-style-type: disc;
 	padding:  1.5rem;
+}
 
+LI {
+	margin-bottom: 15px;
 }
 
 TD {
