@@ -1,10 +1,5 @@
 ﻿@import url("reset.css");
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
 
 
 
@@ -13,13 +8,13 @@ BODY {
 	-webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 	font-family: 'Source Code Pro', monospace;
-	max-width: 38rem;
+	max-width: 56rem;
 	padding:  1.5rem;
 	margin-left:  1rem;
 	margin-right: auto;
 	background: #121212;
 	color: #eeeeee;
-	font-size:1vw; 
+	font-size:1.1vmax ; 
 }
 
 
@@ -36,6 +31,9 @@ P{
 	margin-bottom:30px;
 }
 
+TD {
+	padding:1rem;
+}
 
  A{
 	color:#eeeeee;
