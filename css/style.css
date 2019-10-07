@@ -13,10 +13,10 @@ BODY {
 	-webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 	font-family: 'Source Code Pro', monospace;
-	  max-width: 38rem;
-  padding:  1.5rem;
-  margin-left:  1rem;
-  margin-right: auto;
+	max-width: 38rem;
+	padding:  1.5rem;
+	margin-left:  1rem;
+	margin-right: auto;
 	background: #121212;
 	color: #eeeeee;
 }
