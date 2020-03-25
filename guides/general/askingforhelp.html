@@ -8,7 +8,7 @@ title: How to ask a good coding question
 
 <H2>First: how to ask a bad coding question</H2>
 <P>
-One of the problems with writing code is that you can get very close to it - so close that no one understands you when you ask about it! For example, 
+One of the problems with writing code is that you can get very close to it - so close that no one understands you when you ask about it. For example, 
 people who teach coding are used to getting emails like this:
 
 </P>
@@ -23,7 +23,20 @@ It doesn't work - how do I fix it?</CODE>
 </P>
 <HR>
 <P>
-This is a terrible question, because they immediately have to reply and ask:
+or...
+</P>
+<HR>
+<P>
+<CODE>
+From:37352@college.org<BR />
+To:missJones@college.org<BR />
+Date:24/3/2020<BR />
+<BR />
+I'm getting an "ArrayIndexOutOfBoundsException" on line 10. Help!</CODE>
+</P>
+<HR>
+<P>
+I know, seems crazy right, but people in a panic do it all the time. These aren't great questions because the person getting the main immediately has to reply and ask:
 </P>
 <HR>
 <P>
@@ -41,7 +54,7 @@ e) Can you send me your code?</CODE>
 </P>
 <HR>
 <P>
-To which the reply is, more often than not, a screenshot of half the code, which can't be run or experimented on because it's a screenshot and you can't copy and paste code from it.
+To which the paniced reply is, more often than not, a screenshot of half the code, which can't be run or experimented on because it's a screenshot and you can't copy and paste code from it.
 </P>
 
 <H2>How to ask a good coding question</H2>
@@ -79,7 +92,7 @@ To which the person can reply:
 <HR>
 <P>
 <CODE>
-No, this won't work; you can't change the loop variable like this in Python, it just uses the next number supplied by "range" when it loops again; instead tell it 
+Good thinking, but, no, unfortunately this won't work; you can't change the loop variable like this in Python (you can in other languages), it just uses the next number supplied by "range" when it loops again; instead tell it 
 to jump up by 2 each time:
 <BR /><BR />
 for i in range(0,10,2):<BR />
@@ -95,7 +108,10 @@ issue); and Reproducible (people can run it to see the issue).
 <P>
 <STRONG>On the other hand, if you have a debugging issue</STRONG>, and you really can't spot the issue, you'll need to send the person the 
 problem code so they can run it. This means sending them enough of the code that they can start it running and see the whole region of code where there is an 
-issue (i.e. the line of code the system is complaining about and any blocks it is in). In practice, this quite often means sending all the code - <strong>plus any files it needs to run and 
+issue (i.e. the line of code the system is complaining about and any blocks it is in). 
+</P>
+<P>
+In practice, this quite often means sending all the code - <strong>plus any files it needs to run and 
 any instructions on how to run it</strong>. You need, again, to send them whatever they need to replicate the issue. This may include telling them how you're 
 trying to run the code. It may also include supplying or (better) giving a download location for code libraries you've used, or the URL of any website 
 where you've got ideas from.
