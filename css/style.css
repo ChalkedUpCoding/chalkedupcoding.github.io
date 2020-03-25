@@ -35,6 +35,19 @@ H1{
 	color: #eeeeee;	
 }
 
+
+H2{
+	text-align:left;
+	font-size:1.50em;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	vertical-align:top;
+	color: #eeeeee;	
+}
+
+
 P{
 	margin-top:30px;
 	margin-bottom:30px;
@@ -70,5 +83,7 @@ A:hover{
 	text-decoration-color: #333333;
 }
 
-
+CODE {
+	font-family: 'Courier New', monospace;
+}
 
