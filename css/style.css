@@ -88,3 +88,6 @@ CODE {
 	font-family: 'Courier New', monospace;
 }
 
+STRONG {
+	font-weight: bold;
+}
